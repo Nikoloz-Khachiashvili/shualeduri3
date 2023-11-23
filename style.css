@@ -24,7 +24,7 @@ main{
     border-radius: 25px 25px 0px 0px;
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 375px;
     padding-left: 32px;
     padding-top: 32px;
 }
@@ -267,4 +267,15 @@ main{
     font-weight: 700;
     line-height: normal;
     
+}
+
+.bill-input::placeholder,.people-input::placeholder{
+    color: #00474B;
+    text-align: right;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.35;
 }

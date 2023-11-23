@@ -1,0 +1,98 @@
+@media(width >= 1440px){
+    .header-image{
+        margin-top: 163px;
+        margin-left: 676px;
+    }
+
+    main{
+        margin-top: 87px;
+        margin-left: 260px;
+        width: 920px;
+        height: 481px;
+        display: flex;
+        flex-direction: row;
+        padding-left: 48px;
+        border-radius: 25px;
+    }
+
+    .bill-title{
+        margin-top: 10px;
+    }
+
+    .dollar-sign{
+        top: 395.5px;
+        left: 330px;
+    }
+
+    
+
+    .person-sign{
+        left: 328px;
+        top: 707px;
+    }
+    
+    .bill{
+        margin-bottom: 10px;
+    }
+
+    .people-title{
+        margin-top: 40px;
+    }
+
+    .des-flex-col{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tip-amount{
+        display: grid;
+        grid-template-areas: 'btn1 btn2 btn3'
+                             'btn4 btn5 custom-input';
+        column-gap: 14px;
+        row-gap: 16px;
+        width: 380px;
+    }
+
+    .btn1,.btn2,.btn3,.btn4,.btn5,.custom-input{
+        width: 117px;
+    }
+
+    .people-input,.bill-input{
+        width: 379px;
+        height: 48px;
+    }
+
+    .result{
+        width: 413px;
+        height: 417px;
+        flex-shrink: 0;
+        margin-left: 48px;
+        margin-top: 0;
+        padding-top: 50px;
+        padding-left: 40px;
+        row-gap: 37px;
+        padding-right: 40px;
+    }
+
+    .result-1,.result-2{
+        display: flex;
+    }
+
+    .reset-btn{
+        width: 333px;
+        height: 48px;
+        margin-top: 85px;
+    }
+
+    .result-1-number,.result-2-number{
+        color: #26C2AE;
+        text-align: right;
+        font-family: Space Mono;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -1px;
+        margin-top: -15px;
+    }
+}
